@@ -7,6 +7,13 @@ This is a micro-project using PokeApi to create a simple Pokédex
 
 > Some Pokémon don't provide any sprite so the sprite is not showed
 
+#### Stack used
+ - React
+ - Vite
+ - TailwindCSS
+ - HeroIcons
+ - Local storage used as cache
+ 
 ## Examples
 ![MvYuVMO.jpeg (2428×1372) (imgur.com)](https://i.imgur.com/MvYuVMO.jpeg)
 
