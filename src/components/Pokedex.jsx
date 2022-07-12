@@ -2,7 +2,7 @@ import {PokeCard} from "./PokeCard";
 import usePokemonList from "../hooks/usePokemonList";
 
 export default function Pokedex() {
-    const [pokemons, fetchNextPage] = usePokemonList(50)
+    const [pokemons, fetchNextPage] = usePokemonList(30)
 
     return (
         <>
@@ -10,7 +10,7 @@ export default function Pokedex() {
                 {pokemons.map((pokemon) => <PokeCard key={pokemon.name} pokemon={pokemon}/>)}
             </div>
             <div className="flex justify-center pb-3">
-                <button className="p-2 px-10 border border-black rounded-md w-60" onClick={fetchNextPage}>Ver más</button>
+                <button className="p-2 px-10 border border-black rounded-md w-60" onClick={fetchNextPage}>View more</button>
             </div>
         </>
     )
