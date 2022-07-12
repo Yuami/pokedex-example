@@ -7,7 +7,7 @@ function Header() {
     const [shiny, setShiny] = useContext(ShinyPokemonContext)
 
     return (
-        <header className="bg-white flex justify-between px-6 py-3 shadow">
+        <header className="bg-white flex justify-between px-6 py-3 shadow sticky top-0 z-10">
             <div className="flex gap-2 items-center">
                 <PokeballIcon className="h-12 w-12 fill-gray-800"/>
                 <h1 className="text-2xl text-gray-800">Pokémon</h1>
